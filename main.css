@@ -13,19 +13,8 @@ body {
   margin: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  min-width: 320px;
-  flex-shrink: 1;
-  padding: 0;
-  margin: 0;
+.indexheader {
+  background-color: #c7ddea;
 }
 
 h1 {
@@ -42,7 +31,7 @@ p {
   color: whitesmoke;
 }
 .mainblock > h1:nth-child(1) {
-  margin-top: 5rem;
+  padding-top: 2.5rem;
 }
 .mainblock > h1 {
   line-height: 0.5rem;
@@ -97,7 +86,7 @@ p {
   padding-bottom: 15vh;
 }
 
-.greyarea {
+.indexmain {
   background-color: #a7a7a7;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
