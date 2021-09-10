@@ -88,3 +88,27 @@ p {
 }
 
 /* CONTACT */
+.contact-wrapper {
+  min-width: 360px;
+}
+.block-man-baby {
+  background-color: #c7ddea;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 0;
+  padding-top: 10px;
+}
+.image-man-baby {
+  width: 150;
+  height: 350px;
+}
+
+.block__man-baby {
+  position: relative;
+  left: 44px;
+  top: 70px;
+  font-size: 29px;
+  font-weight: bold;
+}
