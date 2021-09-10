@@ -11,6 +11,7 @@ body {
   flex-shrink: 1;
   padding: 0;
   margin: 0;
+  
 }
 
 .index-header {
@@ -44,10 +45,12 @@ p {
 }
 .picturefamily {
   height: 200px;
-  width: 360px;
+  width: 320px;  
   padding: 0;
   margin: 0;
+  
 }
+
 
 .join-now {
   border-radius: 25px;
@@ -88,20 +91,30 @@ p {
 
 .index-main {
     
-  background-color: #a7a7a7;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  background-color: #A9A19E;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   margin: 0;
+  padding-bottom: 2rem;
 }
-.index-main-profiles{
+.index-main_profiles{
     display: flex;
     flex-direction: column; 
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     margin: 0;
 }
+.index-profiles_boxes img{
+ position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
 
-.index-main_children{    
+}
+
+
+.index-profiles_boxes{    
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -109,69 +122,46 @@ p {
     width: 17rem;
     height: 20rem;
     border-radius: 1rem;
-    margin-top:5rem ;
+    margin-top:5rem;   
+    box-shadow: 1px 1px 1px 1px #6d6b6b ;
+
 }
-.index-child-container{
-    width: 14rem;
+
+
+.index-profiles_boxes_images{
+    width: 90%;
+   height: 50%;
+   padding-top: 2rem;
     background-color: #c7ddea;
     align-self: center;
     border-radius: 1rem;
     position: relative;
     bottom: 2rem;
-
+    
+    text-align: center;
 
 }
-.index-child-container img , .index-adult-container img , .index-old-container img{
+.index-profiles_boxes > h1{
    position: relative;
-   top: 3px;
-   left: 15%;
 }
 
-.index-main_justright{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    background-color: whitesmoke;
-    width: 17rem;
-    height: 20rem;
-    border-radius: 1rem;
-    margin-top:5rem ;
+/* About us */
+.aboutus{
+    background-color:#fab131;
+    display: inline;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin: 0;
 }
-.index-adult-container{
-    width: 14rem;
-    background-color: #c7ddea;
-    align-self: center;
-    border-radius: 1rem;
-    position: relative;
-    bottom: 2rem;  
-}
-
-
-.index-main_oldfart{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    background-color: whitesmoke;
-    width: 17rem;
-    height: 20rem;
-    border-radius: 1rem;
-    margin-top:5rem ;
-
-}
-.index-old-container{
-    width: 14rem;
-    background-color: #c7ddea;
-    align-self: center;
-    border-radius: 1rem;
-    position: relative;
-    bottom: 2rem;  
-}
+ 
 
 
 
 
 
-
+/* CONTACT */
+/* CONTACT */
+/* CONTACT */
 /* CONTACT */
 .contact-wrapper {
   min-width: 360px;
