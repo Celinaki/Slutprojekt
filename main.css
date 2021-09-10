@@ -93,6 +93,10 @@ p {
   margin: 0;
 }
 
+.index-adult-container{
+    width: 100px;
+}
+
 /* CONTACT */
 .contact-wrapper {
   min-width: 360px;
