@@ -14,7 +14,7 @@ body {
     margin: 0;
 }   
 
-.indexheader{  
+.index-header{  
     background-color: #c7ddea;
 
 }
@@ -89,7 +89,7 @@ p {
   padding-bottom: 15vh;
 }
 
-.indexmain {
+.index-main {
   background-color: #a7a7a7;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
