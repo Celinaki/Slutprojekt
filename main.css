@@ -2,19 +2,19 @@ body {
   margin: 0;
   padding: 0;
 }
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;   
-    min-width: 320px; 
-    flex-shrink:1;
-    padding: 0;
-    margin: 0;
-}   
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  min-width: 320px;
+  flex-shrink: 1;
+  padding: 0;
+  margin: 0;
+}
 
-.index-header{  
-    background-color: #c7ddea;
+.index-header {
+  background-color: #c7ddea;
 }
 
 h1 {
@@ -93,8 +93,8 @@ p {
   margin: 0;
 }
 
-.index-adult-container{
-    width: 100px;
+.index-adult-container {
+  width: 100px;
 }
 
 /* CONTACT */
@@ -154,4 +154,38 @@ p {
   font-weight: bold;
   color: black;
   transition: 1s ease;
+}
+.contact-main {
+  background-color: #a9a19e;
+  padding: 20px;
+}
+.contact-main__h1 {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.contact-main__p-email {
+  color: #e5e3e2;
+  font-weight: bold;
+}
+
+.contact-main__p-message {
+  color: #e5e3e2;
+  font-weight: bold;
+}
+
+.contact-main--message-text {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.contact-main__button-send-message {
+  list-style: none;
+  border-radius: 2rem;
+  position: relative;
+  left: 12rem;
+  top: 1rem;
+  padding: 0.5rem;
 }
