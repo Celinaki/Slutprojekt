@@ -225,9 +225,6 @@ p {
 }
 
 /* CONTACT */
-.contact-wrapper {
-  min-width: 360px;
-}
 
 .block-man-baby {
   background-color: #c7ddea;
@@ -324,7 +321,10 @@ p {
   width: -webkit-fill-available;
   height: 8rem;
 }
-
+.contact-main-block__button {
+  display: flex;
+  justify-content: flex-end;
+}
 .contact-main__button-send-message {
   font-family: "Fira Sans", sans-serif;
   font-weight: 800;
@@ -332,14 +332,48 @@ p {
   text-decoration: none;
   border-radius: 2rem;
   align-self: flex-end;
-  position: relative;
-  left: 0.5rem;
-  top: 0.5rem;
   padding: 0.6rem 1.3rem 0.6rem 1.3rem;
-  margin: 0.5rem;
+  margin-bottom: 0.5rem;
   margin-top: 1rem;
   border: none;
   box-shadow: #5f5f5f 0 1px 5px 0px;
+}
+.contact-main-card__come-visit-us {
+  padding: 1.5rem;
+  bottom: 0;
+  transform: translate(0%, 50%);
+  left: 1.5rem;
+  right: 1.5rem;
+  background-color: #fab131;
+  width: calc(100% - 6rem);
+  position: absolute;
+  z-index: 3;
+}
+.contact-main-card__come-visit-us h1,
+.contact-main-card__come-visit-us p {
+  color: #ffffff;
+}
+
+.contact-main-card__come-visit-us--h1 {
+  font-size: 3.1rem;
+  margin: 0;
+}
+.contact-main-card__come-visit-us--adress {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-main-card__come-visit-us--state {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.contact-main__come-visit-us-arrowup {
+  background-color: #c7ddea;
+  border-radius: 100%;
+  position: absolute;
+  left: 82%;
+  top: 55%;
+  width: 20%;
 }
 
 .footer-mapbackground {
@@ -354,38 +388,10 @@ p {
 }
 
 .footer__pin-marker {
+  font-size: 48px !important;
   position: absolute;
   color: #f17949;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.footer__come-visit-us {
-  padding: 1.5rem;
-  bottom: 0;
-  transform: translate(0%, 50%);
-  left: 1.5rem;
-  right: 1.5rem;
-  background-color: #fab131;
-  width: calc(100% - 6rem);
-  position: absolute;
-  z-index: 3;
-}
-.footer__come-visit-us h1,
-.footer__come-visit-us p {
-  color: #ffffff;
-}
-
-.footer__come-visit-us--h1 {
-  font-size: 3.1rem;
-  margin: 0;
-}
-.footer__come-visit-us--adress {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-.footer__come-visit-us--state {
-  font-size: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 5rem;
 }
