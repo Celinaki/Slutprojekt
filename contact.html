@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="contact-wrapper">
@@ -16,17 +20,11 @@
         </article>
 
         <nav class="contact-navigation">
-          <ul class="contact__home block__contact">
-            <p class="nav--contact">Home</p>
-          </ul>
-          <ul class="contact__our-coffer block__contact">
-            <p class="nav--contact">Our coffer</p>
-          </ul>
-          <ul class="contact__why-us block__contact">
-            <p class="nav--contact">Why us</p>
-          </ul>
-          <ul class="contact__contact block__contact">
-            <p class="nav--contact">Contact</p>
+          <ul class="block__contact">
+            <li class="nav--contact">Home</li>
+            <li class="nav--contact">Our coffer</li>
+            <li class="nav--contact">Why us</li>
+            <li class="nav--contact">Contact</li>
           </ul>
         </nav>
       </header>
@@ -34,7 +32,7 @@
         <section class="contact-main">
           <h1 class="contact-main__h1">Whats on your mind?</h1>
           <p class="contact-main__p-email">Your Email</p>
-          <input type="text" />
+          <input class="contact-main__input-email" type="text" />
           <p class="contact-main__p-message">Your Message</p>
           <textarea
             class="contact-main--message-text"
@@ -46,11 +44,21 @@
 Dear incurance company...
           </textarea>
           <button class="contact-main__button-send-message">
-            Send message
+            SEND MESSAGE
           </button>
+          <article class="footer__come-visit-us">
+            <h1 class="footer__come-visit-us--h1">Come visit us!</h1>
+            <p class="footer__come-visit-us--adress">2219 Griffin Street</p>
+            <p class="footer__come-visit-us--state">San Fransisco</p>
+          </article>
         </section>
       </main>
-      <footer></footer>
+      <footer>
+        <section class="footer-mapbackground">
+          <img class="footer__map" src="./map.png" alt="" />
+          <span class="material-icons footer__pin-marker"> room </span>
+        </section>
+      </footer>
     </div>
   </body>
 </html>
