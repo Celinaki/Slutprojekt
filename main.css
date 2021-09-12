@@ -268,15 +268,25 @@ p {
   font-weight: bold;
   color: #a9a19e;
   transition: 1s ease;
+  text-decoration: none;
+}
+.nav--contact > a {
+  text-decoration: none;
+  color: #a9a19e;
+  transition: 1s ease;
+}
+.nav--contact > a:hover {
+  cursor: pointer;
+  color: black;
+  transition: 1s ease;
 }
 .nav--contact:hover {
   background-color: rgb(182, 182, 182);
   transition: 1s ease;
-  cursor: pointer;
 
   text-align: center;
   font-weight: bold;
-  color: black;
+
   transition: 1s ease;
 }
 .contact-main {
@@ -339,7 +349,7 @@ p {
   box-shadow: #5f5f5f 0 1px 5px 0px;
 }
 .contact-main-card__come-visit-us {
-  padding: 1.5rem;
+  padding: 0 1.5rem 0 1.5rem;
   bottom: 0;
   transform: translate(0%, 50%);
   left: 1.5rem;
@@ -355,25 +365,29 @@ p {
 }
 
 .contact-main-card__come-visit-us--h1 {
-  font-size: 3.1rem;
-  margin: 0;
+  font-size: 230%;
+
+  margin: 1rem 0 0 0;
 }
 .contact-main-card__come-visit-us--adress {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  margin: 0;
+  font-weight: bold;
 }
 .contact-main-card__come-visit-us--state {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: 1rem;
   margin-bottom: 5rem;
+  font-weight: bold;
 }
 .contact-main__come-visit-us-arrowup {
-  background-color: #c7ddea;
+  background-color: #b5daf1;
   border-radius: 100%;
   position: absolute;
-  left: 82%;
+  left: 84%;
   top: 55%;
-  width: 20%;
+  width: 3rem;
 }
 
 .footer-mapbackground {
@@ -388,7 +402,7 @@ p {
 }
 
 .footer__pin-marker {
-  font-size: 48px !important;
+  font-size: 36px !important;
   position: absolute;
   color: #f17949;
   top: 50%;
