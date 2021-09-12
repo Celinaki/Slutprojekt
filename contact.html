@@ -5,66 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div class="contact-wrapper" id="contact-back-to-top">
+    <section class="contact-wrapper" id="contact-back-to-top">
       <header>
-        <article class="block-man-baby">
-          <h1 class="block__man-baby-h1">Oh hello there!</h1>
-          <img class="image-man-baby" src="./man-baby (1).png" alt="" />
-        </article>
+        <section class="block-man-baby">
+          <article class="block-man-baby__article max-width">
+            <h1 class="block__man-baby-h1">Oh hello there!</h1>
+            <img class="image-man-baby" src="./man-baby.png" alt="" />
+          </article>
+        </section>
 
         <nav class="contact-navigation">
-          <ul class="block__contact">
+          <ul class="block__contact max-width">
             <li class="nav--contact"><a href="index.html">Home</a></li>
             <li class="nav--contact"><a href="">Our coffer</a></li>
             <li class="nav--contact"><a href="">Why us</a></li>
-            <li class="nav--contact"><a href="contact.html">Contact</a></li>
+            <li class="nav--contact active">
+              <a href="contact.html">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>
-      <main>
-        <section class="contact-main">
-          <h1 class="contact-main__h1">Whats on your mind?</h1>
-          <p class="contact-main__p-email">Your Email</p>
-          <input class="contact-main__input-email" type="text" />
-          <p class="contact-main__p-message">Your Message</p>
-          <textarea
-            class="contact-main--message-text"
-            id="story"
-            name="story"
-            rows="5"
-            cols="33"
-          >
-Dear incurance company...
-          </textarea>
-          <article class="contact-main-block__button">
-          <button class="contact-main__button-send-message">
-            SEND MESSAGE
-          </button></article>
-          <article class="contact-main-card__come-visit-us">
-            <h1 class="contact-main-card__come-visit-us--h1">Come visit us!</h1>
-            <p class="contact-main-card__come-visit-us--adress">
-              2219 Griffin Street
-            </p>
-            <p class="contact-main-card__come-visit-us--state">San Fransisco</p>
-            <a href="#contact-back-to-top"><img class="contact-main__come-visit-us-arrowup" src="./keyboard_arrow_up_black_48dp.svg " alt=""></a>
-           
-            </span>
+
+      <main class="contact-main">
+        <section class="max-width relative contact-main__section">
+          <article class="contact-main__section-article">
+            <h1 class="contact-main__h1">Whats on your mind?</h1>
+          </article>
+          <article class="contact-main__contacting-us">
+            <label for="email" class="contact-main__label">Your email</label>
+            <input id="email" class="contact-main__input-email" type="text" />
+
+            <label for="story" class="contact-main__label">Your message</label>
+            <textarea
+              class="contact-main--message-text"
+              id="story"
+              name="story"
+            >
+Dear insurance company...</textarea
+            >
+            <aside class="contact-main-block__button">
+              <button class="contact-main__button-send-message">
+                SEND MESSAGE
+              </button>
+            </aside>
           </article>
         </section>
       </main>
-      <footer>
-        <section class="footer-mapbackground">
-          <img class="footer__map" src="./map.png" alt="" />
+
+      <footer class="contact-footer">
+        <section class="contact-footer-section max-width relative">
+          <article class="contact-footer-card__come-visit-us">
+            <h1 class="contact-footer-card__come-visit-us--h1">
+              Come visit us!
+            </h1>
+            <p class="contact-footer-card__come-visit-us--adress">
+              2219 Griffin Street
+            </p>
+            <p class="contact-footer-card__come-visit-us--state">
+              San Fransisco
+            </p>
+            <a
+              href="#contact-back-to-top"
+              class="contact-main__come-visit-us-arrowup-link"
+            >
+              <span
+                class="
+                  material-icons
+                  contact-main__come-visit-us-arrowup-link-icon
+                "
+              >
+                keyboard_arrow_up
+              </span>
+            </a>
+          </article>
+        </section>
+
+        <section class="contact-footer-map__section">
+          <figure class="contact-footer-map__figure"></figure>
           <span class="material-icons footer__pin-marker"> room </span>
         </section>
       </footer>
-    </div>
+    </section>
   </body>
 </html>
