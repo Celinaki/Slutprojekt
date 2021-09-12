@@ -288,7 +288,20 @@ background-color: #F17949
 .steps-how-it-works>p{
    width: 60%;
 }
+.index-footer{
+  background-color: grey;
+  min-height: 20vh;  
+  position: relative;
+}
 
+.fas{
+color: aqua;
+font-size: 52px;
+position: absolute;
+bottom: 76%;
+left: 77%;
+
+}
 
 
 /* CONTACT */
