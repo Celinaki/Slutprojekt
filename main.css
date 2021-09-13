@@ -263,11 +263,15 @@ p {
 }
 
 .fas {
-  color: aqua;
+  color: #c7ddea;
   font-size: 52px;
   position: absolute;
-  bottom: 76%;
-  left: 77%;
+  bottom: 50%;
+  left: 80%;
+  position: fixed;
+  z-index: 999;
+  background-color: #460606;
+  border-radius: 55px;
 }
 /* CONTACT */
 
