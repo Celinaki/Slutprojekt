@@ -74,31 +74,30 @@ p {
   font-size: 0.6rem;
   opacity: 1;
 }
- /* Hamburgermenu starts here */
- .index-hamburger{
+/* Hamburgermenu starts here */
+.index-hamburger {
   background-color: #fab131;
 }
-.burger-icon{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-    padding: 10px;
+.burger-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
 }
-#menu-button{
+#menu-button {
   text-align: center;
 }
-#menu-button input{
+#menu-button input {
   position: absolute;
   width: 40px;
   height: 40px;
   left: 44%;
   opacity: 0;
   z-index: 2;
+}
 
-  }
-
-.burger-icon span{
+.burger-icon span {
   height: 5px;
   width: 35px;
   background-color: black;
@@ -107,35 +106,28 @@ p {
   position: relative;
   z-index: 1;
   border-radius: 25px;
-  
 }
-.burger-icon span:nth-child(1){
-    width: 30px;
+.burger-icon span:nth-child(1) {
+  width: 30px;
 }
-.burger-icon span:nth-child(3){
+.burger-icon span:nth-child(3) {
   width: 30px;
 }
 
 #index-menu a {
   text-decoration: none;
-
-
 }
 #index-menu li {
   color: black;
   padding: 5px;
-
-
-
 }
 #index-menu {
-    list-style-type: none;
-    opacity: 0;
-    padding: 0;
-    display: none;
-    padding-bottom: 20px;
-    margin: 0;
-     
+  list-style-type: none;
+  opacity: 0;
+  padding: 0;
+  display: none;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 #menu-button input:checked ~ #index-menu {
@@ -362,12 +354,12 @@ p {
   margin: 0;
 }
 .image-man-baby {
-  width: 250px;
+  max-width: 55%;
 }
 .block__man-baby-h1 {
   position: absolute;
   left: 1rem;
-  top: 0px;
+  top: -1rem;
   font-size: 2.8rem;
   font-weight: 800;
   margin-top: 8rem;
@@ -478,17 +470,20 @@ p {
 
 .contact-main__come-visit-us-arrowup-link {
   background-color: #c7ddea;
-  position: absolute;
-  right: -0.4rem;
-  bottom: 3rem;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
   width: 4.5rem;
   height: 4.5rem;
   border-radius: 50%;
+  z-index: 999;
 }
 .contact-main__come-visit-us-arrowup-link-icon {
   font-size: 4.5rem;
   color: #000;
   line-height: 4.5rem;
+  z-index: 999;
+  position: fixed;
 }
 
 /* Footer */
@@ -534,9 +529,12 @@ p {
   height: 400px;
   background-size: cover;
   margin: 0;
+  transition: 0.5s ease;
 }
+
 .contact-footer-map__figure:active {
   transform: scale(2);
+  transition: 0.5s ease;
 }
 .contact-footer__map {
   display: flex;
@@ -574,7 +572,7 @@ p {
     width: initial;
     padding-top: 4rem;
     height: auto;
-    margin-right: 6rem;
+    margin-right: 1rem;
     font-size: 3.7rem;
   }
 
@@ -626,6 +624,9 @@ p {
     top: 40px;
     position: absolute;
     z-index: 3;
+  }
+  .contact-main__come-visit-us-arrowup-link {
+    display: none;
   }
   .material-icons.footer__pin-marker {
     font-size: 5rem;
