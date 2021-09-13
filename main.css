@@ -74,7 +74,7 @@ p {
   font-size: 0.6rem;
   opacity: 1;
 }
-.mobile_nav{
+.dektop_nav{
   display: none;
 }
 /* Hamburgermenu starts here */
@@ -148,6 +148,7 @@ p {
   font-size: 42px;
   margin: 0;
 }
+
 .orangeblock {
   display: flex;
   justify-content: center;
@@ -351,7 +352,9 @@ display: none;
 @media screen and (min-width: 768px) {
   .index-hamburger {
     display: none;  
-  }
+  }.dektop_nav{
+  display:contents
+}
   .top-three-blocks{
     display: grid;
     grid-template-columns: repeat(4,1fr);
