@@ -74,7 +74,7 @@ p {
   font-size: 0.6rem;
   opacity: 1;
 }
-.dektop_nav{
+.dektop_nav {
   display: none;
 }
 /* Hamburgermenu starts here */
@@ -342,59 +342,56 @@ p {
   background-color: #000000;
   border-radius: 70%;
 }
-.take-me-up{
-display: none;
+.take-me-up {
+  display: none;
 }
-.join-now_desktop{
+.join-now_desktop {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
   .index-hamburger {
-    display: none;  
-  }.dektop_nav{
-  display:contents
-}
-  .top-three-blocks{
+    display: none;
+  }
+  .dektop_nav {
+    display: contents;
+  }
+  .top-three-blocks {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: "top-a top-a top-test top-test";
-    
   }
-  .top-a{
+  .top-a {
     grid-area: top-a;
     height: auto;
     margin: 0;
     padding: 0;
-    height:584px ;
+    height: 584px;
     width: auto;
     padding: 2rem 0 0 6rem;
-
-
   }
-  .top-a>img{
+  .top-a > img {
     min-width: 300px;
     min-height: 350px;
-    margin-right: 1rem;  
-}
-.top-a>h1{
-  font-size: 46px;
-}
-.top-a>p{
-  font-size: 14px;
-  width: 55%;
-  
-}
-  .top-test{
+    margin-right: 1rem;
+  }
+  .top-a > h1 {
+    font-size: 46px;
+  }
+  .top-a > p {
+    font-size: 14px;
+    width: 55%;
+  }
+  .top-test {
     grid-area: top-test;
   }
-  .top-b{
+  .top-b {
     grid-area: top-b;
-    padding:0 2rem 0 2rem;
+    padding: 0 2rem 0 2rem;
     height: auto;
   }
-  .top-c{
+  .top-c {
     grid-area: top-c;
     padding: 0 2rem 0 2rem;
     height: auto;
@@ -402,73 +399,69 @@ display: none;
   .join-now {
     margin-bottom: 0;
   }
-  .mobile_arrow-up{
+  .mobile_arrow-up {
     display: none;
   }
-   .index-main_profiles{
+  .index-main_profiles {
     flex-direction: row;
     justify-content: space-around;
     transform: translateY(50%);
   }
-  .index-main{
-     padding: 4rem;
-
+  .index-main {
+    padding: 4rem;
   }
-  .index-main_text-container{
+  .index-main_text-container {
     display: flex;
     justify-content: space-between;
-    width:100% ;
+    width: 100%;
     flex-flow: wrap;
     padding-top: 5rem;
     margin-bottom: -5rem;
   }
-  .index-main_text-container>p {
+  .index-main_text-container > p {
     width: 40%;
     margin: 0;
     padding-top: 0;
     margin-right: 4rem;
   }
-  .index-main_text-container>h1{
+  .index-main_text-container > h1 {
     width: 45%;
     margin: 0;
     padding-top: 0;
     margin-left: 4rem;
   }
-  .join-now_desktop{
+  .join-now_desktop {
     margin-left: 4rem;
   }
-  .aboutus{
+  .aboutus {
     padding-top: 10rem;
     padding-bottom: 8rem;
     padding-left: 15rem;
     padding-right: 15rem;
   }
-  .six-items{
+  .six-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 600px;
   }
-  .steps-how-it-works{
+  .steps-how-it-works {
     height: 100%;
-   
   }
-.take-me-up{
-  width: 100%;
-  padding: 2rem;
-  display: flex;
-  background-color: rgb(85, 85, 84);
- text-align: center;
-  flex-direction: column;
+  .take-me-up {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    background-color: rgb(85, 85, 84);
+    text-align: center;
+    flex-direction: column;
+  }
+  .desktop_arrow-up {
+    color: #000;
+    visibility: visible;
+    align-self: center;
+  }
 }
-.desktop_arrow-up{
-  color: #000;
-  visibility: visible;
-  align-self: center;
-}
-
-}
-
 
 /* CONTACT */
 /* CONTACT */
@@ -500,7 +493,7 @@ display: none;
 .block__man-baby-h1 {
   position: absolute;
   left: 1rem;
-  top: -1rem;
+  top: -3rem;
   font-size: 2.8rem;
   font-weight: 800;
   margin-top: 8rem;
@@ -551,7 +544,6 @@ display: none;
 
 /* MAIN-CONTACT*/
 .contact-main {
-  position: relative;
   background-color: #a9a19e;
   padding: 1.5rem;
   align-items: center;
@@ -562,7 +554,8 @@ display: none;
   color: white;
   font-weight: 800;
   font-size: 2.8rem;
-  margin-bottom: 0.3rem;
+  line-height: 2.3rem;
+  margin-bottom: 2rem;
 }
 .contact-main__label {
   color: #e5e3e2;
@@ -588,6 +581,9 @@ display: none;
 }
 .contact-main--message-text {
   height: 9rem;
+}
+.contact-main--message-text::placeholder {
+  color: #000;
 }
 .contact-main-block__button {
   display: flex;
@@ -628,27 +624,23 @@ display: none;
 }
 
 /* Footer */
-.contact-footer {
-  position: relative;
+.contact-footer-section {
+  height: 0;
 }
 .contact-footer-card__come-visit-us {
-  max-height: 11rem;
   padding: 1.5rem 1.5rem;
-  transform: translate(0%, -50%);
+  transform: translate(1.5rem, -50%);
   background-color: #fab131;
   width: calc(100% - 6rem);
-  position: absolute;
-  top: 0;
-  left: 1.5rem;
-  right: 1.5rem;
   z-index: 3;
+  position: relative;
 }
 .contact-footer-card__come-visit-us h1,
 .contact-footer-card__come-visit-us p {
   color: #ffffff;
 }
 .contact-footer-card__come-visit-us--h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 0;
 }
 .contact-footer-card__come-visit-us--state,
@@ -665,12 +657,14 @@ display: none;
   overflow: hidden;
 }
 .contact-footer-map__figure {
-  position: relative;
   background: url("./map.png");
   height: 400px;
   background-size: cover;
   margin: 0;
   transition: 0.5s ease;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .contact-footer-map__figure:active {
@@ -689,19 +683,12 @@ display: none;
 }
 .material-icons.footer__pin-marker {
   font-size: 5rem;
-  position: absolute;
   color: #f17949;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 /* GENERAL-CONTACT */
 .max-width {
   max-width: 1000px;
   margin: 0 auto;
-}
-.relative {
-  position: relative;
 }
 
 /* Desktop */
@@ -732,7 +719,11 @@ display: none;
   }
   .contact-main__h1 {
     font-size: 3rem;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    line-height: 3rem;
   }
   .contact-main__p-email {
     margin-top: 0;
@@ -743,28 +734,29 @@ display: none;
   }
   .contact-main__section-article {
     padding: 0 3%;
-    max-width: 270px;
   }
   .contact-main__contacting-us {
     max-width: 470px;
     width: 100%;
   }
+  .contact-main__contacting-us label:first-child {
+    margin-top: 0;
+  }
   .contact-main__label {
     padding-left: 0;
     font-size: 1rem;
   }
-
   /* Map */
   .contact-footer-card__come-visit-us {
     padding: 1.5rem 1.5rem;
     transform: initial;
-    top: 0;
-    left: 1.5rem;
-    right: 1.5rem;
+    margin-left: 1.5rem;
     width: 300px;
     top: 40px;
-    position: absolute;
     z-index: 3;
+  }
+  .contact-footer-card__come-visit-us--h1 {
+    font-size: 2.8rem;
   }
   .contact-main__come-visit-us-arrowup-link {
     display: none;
