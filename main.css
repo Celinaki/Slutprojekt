@@ -266,12 +266,12 @@ p {
   color: #c7ddea;
   font-size: 52px;
   position: absolute;
-  bottom: 50%;
+  bottom: 15%;
   left: 80%;
   position: fixed;
   z-index: 999;
   background-color: #460606;
-  border-radius: 55px;
+  border-radius: 50%;
 }
 /* CONTACT */
 
