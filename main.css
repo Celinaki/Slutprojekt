@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -270,22 +273,11 @@ p {
   left: 80%;
   position: fixed;
   z-index: 999;
-  background-color: #460606;
-  border-radius: 50%;
+  background-color: #000000;
+  border-radius: 70%;
 }
 
-
 /* CONTACT */
-
-html {
-  scroll-behavior: smooth;
-}
-
-
-/* CONTACT */
-
-
-/* CONTACT - Daniel */
 
 /* HEADER-CONTACT */
 .contact-wrapper {
