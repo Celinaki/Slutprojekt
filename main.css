@@ -74,7 +74,76 @@ p {
   font-size: 0.6rem;
   opacity: 1;
 }
+ /* Hamburgermenu starts here */
+ .index-hamburger{
+  background-color: #fab131;
+}
+.burger-icon{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 10px;
+}
+#menu-button{
+  text-align: center;
+}
+#menu-button input{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 44%;
+  opacity: 0;
+  z-index: 2;
 
+  }
+
+.burger-icon span{
+  height: 5px;
+  width: 35px;
+  background-color: black;
+  margin-bottom: 4px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  
+}
+.burger-icon span:nth-child(1){
+    width: 30px;
+}
+.burger-icon span:nth-child(3){
+  width: 30px;
+}
+
+#index-menu a {
+  text-decoration: none;
+
+
+}
+#index-menu li {
+  color: black;
+  padding: 5px;
+
+
+
+}
+#index-menu {
+    list-style-type: none;
+    opacity: 0;
+    padding: 0;
+    display: none;
+    padding-bottom: 20px;
+    margin: 0;
+     
+}
+
+#menu-button input:checked ~ #index-menu {
+  opacity: 1;
+  display: block;
+}
+
+/* Hamburger menu ends here*/
 .twoblocks {
   display: flex;
   flex-direction: column;
