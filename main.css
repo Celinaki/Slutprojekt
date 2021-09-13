@@ -2,11 +2,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-}
 .wrapper {
   min-width: 320px;
   padding: 0;
@@ -249,6 +244,7 @@ p {
   text-align: center;
   flex-direction: column;
 }
+
 .steps-how-it-works > h1 {
   font-size: 38px;
   align-self: center;
@@ -259,6 +255,7 @@ p {
 .steps-how-it-works > p {
   width: 60%;
 }
+
 .index-footer {
   background-color: grey;
   min-height: 20vh;
@@ -521,7 +518,6 @@ p {
 .image-man-baby {
   width: 250px;
 }
-
 .block__man-baby-h1 {
   position: absolute;
   left: 1rem;
@@ -532,7 +528,6 @@ p {
   width: 200px;
   line-height: 41px;
 }
-
 .block__contact {
   flex-wrap: wrap;
   padding-bottom: 0;
@@ -542,7 +537,6 @@ p {
   list-style: none;
   margin: 0;
 }
-
 .nav--contact {
   width: 50%;
   text-align: center;
@@ -571,12 +565,11 @@ p {
 .nav--contact:hover {
   background-color: #f1f1f1;
   transition: 0.5s ease;
-
   text-align: center;
   font-weight: bold;
-
   transition: 0.5s ease;
 }
+
 /* MAIN-CONTACT*/
 .contact-main {
   position: relative;
@@ -592,7 +585,6 @@ p {
   font-size: 2.8rem;
   margin-bottom: 0.3rem;
 }
-
 .contact-main__label {
   color: #e5e3e2;
   font-weight: bold;
@@ -603,7 +595,6 @@ p {
   font-size: 0.9rem;
   display: block;
 }
-
 .contact-main__input-email,
 .contact-main--message-text {
   font-family: "Fira Sans", sans-serif;
@@ -658,7 +649,6 @@ p {
 .contact-footer {
   position: relative;
 }
-
 .contact-footer-card__come-visit-us {
   max-height: 11rem;
   padding: 1.5rem 1.5rem;
@@ -675,7 +665,6 @@ p {
 .contact-footer-card__come-visit-us p {
   color: #ffffff;
 }
-
 .contact-footer-card__come-visit-us--h1 {
   font-size: 2.5rem;
   margin: 0;
@@ -703,19 +692,16 @@ p {
 .contact-footer-map__figure:active {
   transform: scale(2);
 }
-
 .contact-footer__map {
   display: flex;
   flex-shrink: unset;
   min-height: 400px;
 }
-
 .contact-footer__map:active {
   -webkit-transform: scale(2);
   transform: scale(2);
   cursor: zoom-out;
 }
-
 .material-icons.footer__pin-marker {
   font-size: 5rem;
   position: absolute;
@@ -724,17 +710,17 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* GENERAL */
+/* GENERAL-CONTACT */
 .max-width {
   max-width: 1000px;
   margin: 0 auto;
 }
-
 .relative {
   position: relative;
 }
 
 /* Desktop */
+
 @media (min-width: 768px) {
   /* Header */
   .block__man-baby-h1 {
@@ -790,7 +776,6 @@ p {
     top: 0;
     left: 1.5rem;
     right: 1.5rem;
-    background-color: #fab131;
     width: 300px;
     top: 40px;
     position: absolute;
