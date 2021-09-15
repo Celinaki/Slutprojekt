@@ -508,14 +508,15 @@ margin-top: 0;
 .offer{
   display: flex;
   flex-direction: column;
-background-color: whitesmoke;
-margin-top: 2rem;
-height: 15rem;
-justify-content: space-between;
-border-radius: 2px;
-box-shadow:
-2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
-6.7px 6.7px 5.3px rgba(0, 0, 0, 0.024),
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  height: 15rem;
+  justify-content: space-between;
+  border-radius: 2px;
+  transform: translate(50% 0);
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.024),
 12.5px 12.5px 10px rgba(0, 0, 0, 0.03),
 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.036),
 41.8px 41.8px 33.4px rgba(0, 0, 0, 0.043),
@@ -1109,15 +1110,11 @@ align-items: center;
   padding: 1rem;
   color: #000000;
   z-index: 5;
-  background-color: rgb(255, 230, 0);
+  background-color: rgba(153, 153, 153, 0.507);
   border-radius: 50%;
-  transition: ease 0.8s;
   box-shadow: black 0 0.2rem 0.5rem 0;
 }
-.why-us-arrow-up:hover {
-  background-color: rgba(153, 153, 153, 0.507);
-  transition: ease 0.8s;
-}
+
 @media screen and (min-width: 768px) {
   .nav--why-us {
     width: 25%;
