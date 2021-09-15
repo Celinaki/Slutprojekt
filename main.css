@@ -225,7 +225,6 @@ p {
   background-color: #c7ddea;
   align-self: center;
   border-radius: 1rem;
-  /* position: relative; */
   position: absolute;
   bottom: 2rem;
   text-align: center;
@@ -256,28 +255,14 @@ p {
 }
 .six-items {
   display: grid;
-  /* justify-content: center; */
-  /* text-align: center; */
 }
-/* .six-items > .steps-how-it-works{
-    height: 20vh;
-    position: relative;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-} */
+
 .steps-how-it-works:nth-child(1) {
   background-color: #c7ddea;
-  /* text-align: center; */
 }
-/* .six-items_blueblock>h1{
-  padding: 0;
-  margin: 0;
-} */
+
 .steps-how-it-works:nth-child(3) {
   background-color: rgb(219, 219, 219);
-  /* white-space: pre-line; */
 }
 .steps-how-it-works:nth-child(5) {
   background-color: #f17949;
@@ -459,8 +444,6 @@ p {
 .our-offers_header {
   background-color: #b9cfdd;
   padding: 2rem;
-  /* justify-content: center;
-    align-content: center; */
 }
 .our-offers_header > p {
   width: 80%;
@@ -590,10 +573,10 @@ p {
     outline: burlywood;
     border: 2px solid burlywood;
     transform: scale(1.04);
-    /* transition: ease-in-out 1s; */
+   
   }
 }
-/* OUR OFFERS */
+/* OUR OFFERS END HERE */
 
 /* <--------CONTACT----------> */
 
