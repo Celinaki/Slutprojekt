@@ -821,7 +821,7 @@ align-items: center;
   overflow: hidden;
 }
 .contact-footer-map__figure {
-  background: url("../pictures-and-icons/map.png");
+  background: url("./pictures-and-icons/map.png");
   height: 400px;
   background-size: cover;
   margin: 0;
