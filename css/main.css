@@ -657,7 +657,7 @@ p {
   overflow: hidden;
 }
 .contact-footer-map__figure {
-  background: url("./map.png");
+  background: url("../pictures-and-icons/map.png");
   height: 400px;
   background-size: cover;
   margin: 0;
@@ -766,5 +766,196 @@ p {
   }
   .footer__map {
     width: 100%;
+  }
+}
+
+/* <-------why-us-------> */
+.why-us-body {
+  background-color: #c7ddea;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block__why-us {
+  flex-wrap: wrap;
+  padding-bottom: 0;
+  display: flex;
+  padding: 0;
+  transition: 0.5s ease;
+  list-style: none;
+  margin: 0;
+}
+.nav--why-us {
+  margin-top: 1rem;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  color: #999999;
+  transition: 0.5s ease;
+  text-decoration: none;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+}
+.nav--why-us.active > a {
+  background-color: #f1f1f1;
+  color: #000000;
+  border-radius: 1rem;
+}
+.nav--why-us > a {
+  text-decoration: none;
+  color: #a9a19e;
+  transition: 0.5s ease;
+  padding: 2rem;
+  display: block;
+}
+.nav--why-us > a:hover {
+  cursor: pointer;
+  color: black;
+  transition: 0.5s ease;
+}
+.nav--why-us:hover {
+  background-color: #58585841;
+  transition: 0.5s ease;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.5s ease;
+  transform: scale(1.2);
+}
+.why-us__h1,
+.why-us__h2 {
+  color: rgba(0, 0, 0, 0.692);
+  font-weight: 800;
+}
+
+.why-us-one,
+.why-us-two,
+.why-us-three {
+  display: flex;
+  flex-direction: column;
+  border: black solid 0.1rem;
+  height: 10rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 80%;
+  text-align: center;
+  justify-content: space-between;
+  margin: 1rem 0 1rem 0;
+  box-shadow: black 0 0.2rem 1.1rem 0;
+}
+.why-us-one {
+  background-color: #fab131;
+}
+.why-us-two {
+  background-color: #f17949;
+}
+.why-us-three {
+  background-color: #a9a19e;
+}
+
+.why-us-button {
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  border: 2px solid #221;
+  padding: 0.5rem;
+  width: 8rem;
+  height: 1rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 1rem;
+  box-shadow: 0 0.1rem 0.2rem 0;
+  transition: ease 0.8s;
+  margin-bottom: 1rem;
+}
+.why-us-button:hover {
+  background-color: rgba(7, 7, 7, 0.356);
+  transition: ease 0.8s;
+  cursor: pointer;
+}
+.why-us-popup-one-text,
+.why-us-popup-two-text,
+.why-us-popup-three-text {
+  padding: 1rem;
+  width: 80%;
+  height: auto;
+  transform: translate(0, 0);
+  background: rgb(255, 230, 0);
+  display: none;
+  box-shadow: black 0 0.3rem 0.5rem 0rem;
+  border-radius: 1rem;
+}
+.why-us-popup-two-text {
+  transform: translate(0, 50%);
+}
+.why-us-popup-three-text {
+  transform: translate(0, 100%);
+}
+#why-us-popup-one .why-us-popup-content {
+  position: relative;
+  display: inline-block;
+}
+#why-us-popup-two .why-us-popup-content {
+  position: relative;
+  display: inline-block;
+}
+#why-us-popup-three .why-us-popup-content {
+  position: relative;
+  display: inline-block;
+}
+.why-us-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 0;
+  padding: 9px 0 11px;
+  width: 1.4rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  transition: ease-in 0.5s;
+}
+.why-us-close:hover {
+  background-color: rgba(0, 0, 0, 0.404);
+  transition: ease-in 0.5s;
+}
+
+.why-us-popup-one-text:target {
+  display: block;
+  position: absolute;
+}
+.why-us-popup-two-text:target {
+  display: block;
+  position: absolute;
+}
+.why-us-popup-three-text:target {
+  display: block;
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .nav--why-us {
+    width: 25%;
+    font-size: 1rem;
+  }
+  .nav--why-us.active > a {
+    background: none;
+  }
+  .why-us-popup-one-text:target {
+    transform: translate(0%, 85%);
+  }
+  .why-us-popup-two-text:target {
+    transform: translate(0%, 234%);
+  }
+  .why-us-popup-three-text:target {
+    transform: translate(0%, 354%);
+  }
+  .why-us-button:hover {
+    transform: scale(1.2);
   }
 }
