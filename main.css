@@ -920,8 +920,9 @@ p {
   font-size: 1rem;
   border-radius: 1rem;
 }
-.nav--why-us:active > a {
+.nav--why-us.active > a {
   border-radius: 1rem;
+  color: #000;
 }
 .nav--why-us > a {
   text-decoration: none;
