@@ -488,7 +488,9 @@ p {
 .offer > ul {
   list-style-type: none;
 }
-.offer > h4 {
+.offer > .price-p {
+  opacity: 1;
+  color: black;
   text-align: right;
   vertical-align: bottom;
   padding-right: 1rem;
