@@ -488,7 +488,7 @@ p {
 .offer > ul {
   list-style-type: none;
 }
-.offer > h4 , .prices {
+.offer > h4 {
   text-align: right;
   vertical-align: bottom;
   padding-right: 1rem;
@@ -497,7 +497,7 @@ p {
   font-style: italic;
   font-weight: 900;
   font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .offer > h1 {
   text-align: center;
@@ -913,20 +913,17 @@ p {
   width: 50%;
   text-align: center;
   font-weight: bold;
-  color: #999999;
   transition: 0.5s ease;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-radius: 1rem;
 }
-.nav--why-us.active > a {
-  background-color: #f1f1f1;
-  color: #000000;
+.nav--why-us:active > a {
   border-radius: 1rem;
 }
 .nav--why-us > a {
   text-decoration: none;
-  color: #a9a19e;
+  color: #7c7c7c;
   transition: 0.5s ease;
   padding: 2rem;
   display: block;
@@ -1075,13 +1072,18 @@ p {
 @media screen and (min-width: 768px) {
   .nav--why-us {
     width: 25%;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .why-us-arrow-up {
     visibility: hidden;
   }
+  .why-us-navigation {
+    width: 40rem;
+  }
   .nav--why-us.active > a {
-    background: none;
+    justify-content: center;
+    display: flex;
+    text-align: center;
   }
   .why-us-popup-one-text,
   .why-us-popup-two-text,
